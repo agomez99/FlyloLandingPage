@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+:root{
+ --verydarkblue: hsl(243, 87%, 12%);
+ --desatblue: hsl(238, 22%, 44%);
+ --brightblue: hsl(224, 93%, 58%);
+ --moderatecyan:hsl(170, 45%, 43%);
+ --lightgrayblue:  hsl(240, 75%, 98%);
+ --lightgray: hsl(0, 0%, 75%);
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+
+main {
+  padding: 1rem;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.bottom-section{
+  background-color:var(--desatblue);
+}
+footer{
+background-color: var(--verydarkblue);
+color:white;
+
+}
