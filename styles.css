@@ -25,11 +25,89 @@ h1 {
   font-weight: bold;
   font-size: 1.5rem;
 }
+.top-section{
+display: flex;
+height: 100vh;
+
+}
+.top-content{
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+  
+}
+input{
+  width:300px;
+}
+.top-button{
+  background-color: var(--brightblue);
+  border:none;
+  color:white;
+  width:200px;
+  height: 45px;
+  border-radius: 2px;
+  margin-left: 10px;
+
+}
+.bottom-button{
+  background-color: var(--brightblue);
+  border:none;
+  color:white;
+  width:200px;
+  height: 45px;
+  border-radius: 2px;
+  margin-top: 10px;
+
+}
+.top-image{
+  height:500px;
+}
+.bottom{
+  display: flex;
+  height: 300px;
+}
+
+.bottom-content{
+margin-top: auto;
+margin-bottom: auto;
+margin-left: 15%;
+margin-right: 15%;
+}
 .bottom-section{
   background-color:var(--desatblue);
+  color:white;
+}
+
+.footer-logo{
+  color:white;
+  width:200px;
+  height:90px;
+  margin-bottom:10%;
+}
+.bottom-links{
+  
+}
+ul{
+  list-style: none;
 }
 footer{
 background-color: var(--verydarkblue);
 color:white;
+height:400px;
+justify-content: space-between;
+display: flex;
+padding:10%
+}
 
+.email-logo, .phone-logo{
+  height:20px;
+  margin-right: 5px;
+}
+.fa-facebook-f, .fa-twitter, .fa-instagram{
+  color:white;
+  font-size: 1rem;
+  border-radius: 50%;
+  border: 1px solid white;
+  padding: 10px;
 }

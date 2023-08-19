@@ -8,13 +8,14 @@
     <title>Frontend Mentor | Fylo landing page with two column layout</title>
     <link rel="stylesheet" href="styles.css" />
     <script type="module" src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
   </head>
 
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand ms-5" href="#">
         <img src="./images/logo.svg" alt="logo"/>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,7 +23,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-          <div class="d-flex ms-auto">
+          <div class="d-flex ms-auto me-5">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link " href="#">Features</a>
@@ -44,18 +45,27 @@
       <div class="container-fluid ">
         <div class="row m-0">
           <div class="col">
+          <div class="top-section">
+            <div class="top-content">
+              <h1>All your files in one secure location, accessible anywhere.</h1>
+              <p>Fylo stores your most important files in one secure location. 
+                Access them wherever you need, share and collaborate with friends, 
+                family, and co-workers.</p>
+            <div class="d-flex">
+              <input placeholder="Enter your email "></input>
+              <button class="top-button"> Get Started </button>        
+  
+            </div>
+            </div>
 
-    
-            All your files in one secure location, accessible anywhere.
-    
-            Fylo stores your most important files in one secure location. 
-            Access them wherever you need, share and collaborate with friends, 
-            family, and co-workers.
-          
-           <button> Get Started </button>        
+          </div>
+
            </div>
           <div class="col-md-6">
-           <img src="./images/illustration-1.svg" height="400px">
+            <div class="top-section">
+              <img src="./images/illustration-1.svg" alt="illustration" class="top-image"/>
+
+            </div>
           </div>
         </div>
         <div class="row m-0">
@@ -82,41 +92,63 @@
           </div>
         </div>
         <div class="row  bottom-section m-0">
-          <div class="col m-0">
-            Get early access today
-    
-            It only takes a minute to sign up and our free starter tier is extremely generous. 
-            If you have any questions, our support team would be happy to help you.
-              
+          <div class="col-md-6 m-0">
+            <div class="bottom ">
+              <div class="bottom-content ">
+                <h2> Get early access today</h2>
+                <p> It only takes a minute to sign up and our free starter tier is extremely generous. 
+                  If you have any questions, our support team would be happy to help you.</p>
+              </div>
+            </div>
+
            </div>
-          <div class="col-md-12">
-              <input></input>
-              <button>Get Started For Free</button>
+          <div class="col-md-6">
+            <div class="bottom ">
+              <div class="bottom-content ">
+                  <input></input>
+                  <br>
+                  <button class="bottom-button">Get Started For Free</button>
+            </div>
           </div>
+          </div>
+
         </div>
       </div>    
 
-
-
-
-
-    
-
-
-    
       <footer>
+      <div >
+        <img src="./images/logo.svg" alt="logo" class="footer-logo" />
+
+        <div class="d-flex">
+          <img src="./images/icon-phone.svg" alt="phone" class="phone-logo"/> <p>Phone: +1-543-123-4567</p>
+        </div>
+        <div class="d-flex">
+          <img src="./images/icon-email.svg" alt="phone" class="email-logo"/><p>example@fylo.com</p>
+        </div>
+      </div>
+
+        
+      <ul class="bottom-links">
+        <li><a>About Us</a></li>
+        <li><a>Jobs</a></li>
+        <li><a>Press</a></li>
+        <li> <a>Blog</a></li>
+      </ul>
+        
+       <ul class="bottom-links">
+       <li><a> Contact Us </a></li> 
+        <li><a>Terms</a></li>
+        <li><a> Privacy</a></li>
+      </ul>
       
-        Phone: +1-543-123-4567
-        example@fylo.com
-      
-        About Us
-        Jobs
-        Press
-        Blog
-      
-        Contact Us
-        Terms
-        Privacy
+        <div class="social-media">
+          <a href="" target="_blank" aria-label="brand link"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="" target="_blank" aria-label="brand link"><i class="fa-brands fa-twitter"></i></a>
+          <a href="" target="_blank" aria-label="brand link"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+       
+        
+       
       </footer>
 
 
